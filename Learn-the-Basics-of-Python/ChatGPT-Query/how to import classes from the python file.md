@@ -24,3 +24,27 @@ class MyClass:
         return x + y
 
 ```
+
+Now, you want to import the `MyClass` class and use it in another file, e.g., `main.py`:
+
+```commandline
+# main.py
+
+# Import the MyClass class from myclass.py
+from myclass import MyClass
+
+# Create an instance of MyClass
+obj = MyClass("John")
+
+# Call the say_hello method
+obj.say_hello()
+
+# Call the add_numbers method
+result = obj.add_numbers(10, 20)
+print(f"Result of adding numbers: {result}")
+
+```
+
+To run `main.py`, open your terminal, navigate to the directory where both `myclass.py` and `main.py` are located, and then execute:
+
+This will import the `MyClass` class from `myclass.py`, create an instance of it, and call its methods as demonstrated in `main.py`.
