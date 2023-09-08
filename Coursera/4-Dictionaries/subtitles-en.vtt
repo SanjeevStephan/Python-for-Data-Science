@@ -1,0 +1,209 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.400
+Let's cover Dictionaries in Python.
+
+2
+00:00:02.400 --> 00:00:05.430
+Dictionaries are a type of collection in Python.
+
+3
+00:00:05.430 --> 00:00:08.500
+If you recall, a list is integer indexes.
+
+4
+00:00:08.500 --> 00:00:10.380
+These are like addresses.
+
+5
+00:00:10.380 --> 00:00:12.730
+A list also has elements.
+
+6
+00:00:12.730 --> 00:00:15.160
+A dictionary has keys and values.
+
+7
+00:00:15.160 --> 00:00:17.530
+The key is analogous to the index.
+
+8
+00:00:17.530 --> 00:00:20.890
+They are like addresses, but they don't have to be integers.
+
+9
+00:00:20.890 --> 00:00:22.570
+They are usually characters.
+
+10
+00:00:22.570 --> 00:00:26.330
+The values are similar to the element in a list and contain information.
+
+11
+00:00:26.330 --> 00:00:27.800
+To create a dictionary,
+
+12
+00:00:27.800 --> 00:00:29.330
+we use curly brackets.
+
+13
+00:00:29.330 --> 00:00:31.310
+The keys are the first elements.
+
+14
+00:00:31.310 --> 00:00:33.770
+They must be immutable and unique.
+
+15
+00:00:33.770 --> 00:00:37.260
+Each key is followed by a value separated by a colon.
+
+16
+00:00:37.260 --> 00:00:41.780
+The values can be immutable, mutable, and duplicates.
+
+17
+00:00:41.780 --> 00:00:45.200
+Each key and value pair is separated by a comma.
+
+18
+00:00:45.200 --> 00:00:48.130
+Consider the following example of a dictionary.
+
+19
+00:00:48.130 --> 00:00:51.920
+The album title is the key, and the value is the released data.
+
+20
+00:00:51.920 --> 00:00:55.870
+We can use yellow to highlight the keys and leave the values in white.
+
+21
+00:00:55.870 --> 00:00:58.340
+It is helpful to use the table to visualize
+
+22
+00:00:58.340 --> 00:01:01.600
+a dictionary where the first column represents the keys,
+
+23
+00:01:01.600 --> 00:01:04.300
+and the second column represents the values.
+
+24
+00:01:04.300 --> 00:01:07.230
+We can add a few more examples to the dictionary.
+
+25
+00:01:07.230 --> 00:01:10.340
+We can also assign the dictionary to a variable.
+
+26
+00:01:10.340 --> 00:01:12.720
+The key is used to look at the value.
+
+27
+00:01:12.720 --> 00:01:14.610
+We use square brackets.
+
+28
+00:01:14.610 --> 00:01:16.540
+The argument is the key.
+
+29
+00:01:16.540 --> 00:01:18.430
+This outputs the value.
+
+30
+00:01:18.430 --> 00:01:20.940
+Using the key of "Back in Black,"
+
+31
+00:01:20.940 --> 00:01:23.550
+this returns the value of 1980.
+
+32
+00:01:23.550 --> 00:01:25.820
+The key, "The Dark Side Of The Moon,"
+
+33
+00:01:25.820 --> 00:01:28.470
+gives us the value of 1973.
+
+34
+00:01:28.470 --> 00:01:30.570
+Using the key,"The bodyguard,"
+
+35
+00:01:30.570 --> 00:01:34.340
+gives us the value 1992 and so on.
+
+36
+00:01:34.340 --> 00:01:37.660
+We can add a new entry to the dictionary as follows.
+
+37
+00:01:37.660 --> 00:01:42.610
+This will add the value 2007 with a new key called "Graduation."
+
+38
+00:01:42.610 --> 00:01:45.150
+We can delete an entry as follows.
+
+39
+00:01:45.150 --> 00:01:46.700
+This gets rid of the key
+
+40
+00:01:46.700 --> 00:01:48.510
+"Thriller" and it's value.
+
+41
+00:01:48.510 --> 00:01:53.300
+We can verify if an element is in the dictionary using the "in" command as follows:
+
+42
+00:01:53.300 --> 00:01:55.140
+The command checks the keys.
+
+43
+00:01:55.140 --> 00:01:56.500
+If they are in the dictionary,
+
+44
+00:01:56.500 --> 00:01:57.940
+they return a true.
+
+45
+00:01:57.940 --> 00:02:01.530
+If we try the same command with a key that is not in the dictionary,
+
+46
+00:02:01.530 --> 00:02:02.970
+we get a false.
+
+47
+00:02:02.970 --> 00:02:05.560
+In order to see all the keys in the dictionary,
+
+48
+00:02:05.560 --> 00:02:08.240
+we can use the method keys to get the keys.
+
+49
+00:02:08.240 --> 00:02:11.650
+The output is a list-like object with all the keys.
+
+50
+00:02:11.650 --> 00:02:16.020
+In the same way, we can obtain the values using the method values.
+
+51
+00:02:16.020 --> 00:02:20.000
+Check out the labs for more examples and info. on dictionaries.
+
+52
+00:02:20.000 --> 00:02:25.000
+(Music)

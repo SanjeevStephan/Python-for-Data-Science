@@ -1,0 +1,218 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.690
+A type is how Python represents
+different types of data.
+
+2
+00:00:04.690 --> 00:00:09.070
+In this video, we will discuss
+some widely used types in Python.
+
+3
+00:00:09.070 --> 00:00:11.780
+You can have different types in Python.
+
+4
+00:00:11.780 --> 00:00:19.800
+They can be integers like 11, real numbers
+like 21.213, they can even be words.
+
+5
+00:00:19.800 --> 00:00:24.460
+Integers, real numbers, and words can
+be expressed as different data types.
+
+6
+00:00:24.460 --> 00:00:28.990
+The following chart summarizes three
+data types for the last examples.
+
+7
+00:00:28.990 --> 00:00:31.520
+The first column indicates the expression.
+
+8
+00:00:31.520 --> 00:00:34.380
+The second column indicates the data type.
+
+9
+00:00:34.380 --> 00:00:38.750
+We can see the actual data type in
+Python by using the type command.
+
+10
+00:00:38.750 --> 00:00:43.350
+We can have int, which stands for
+an integer and float that stands for
+
+11
+00:00:43.350 --> 00:00:45.750
+float, essentially a real number.
+
+12
+00:00:45.750 --> 00:00:48.810
+The type string is
+a sequence of characters.
+
+13
+00:00:48.810 --> 00:00:50.570
+Here are some integers.
+
+14
+00:00:50.570 --> 00:00:53.520
+Integers can be negative or positive.
+
+15
+00:00:53.520 --> 00:00:58.830
+It should be noted that there is a finite
+range of integers but it is quite large.
+
+16
+00:00:58.830 --> 00:01:00.570
+Floats are real numbers.
+
+17
+00:01:00.570 --> 00:01:05.020
+They include the integers but
+also numbers in between the integers.
+
+18
+00:01:05.020 --> 00:01:07.686
+Consider the numbers between 0 and 1.
+
+19
+00:01:07.686 --> 00:01:10.530
+We can select numbers in between them.
+
+20
+00:01:10.530 --> 00:01:12.490
+These numbers are floats.
+
+21
+00:01:12.490 --> 00:01:17.485
+Similarly, consider the numbers
+between 0.5 and 0.6.
+
+22
+00:01:17.485 --> 00:01:20.200
+We can select numbers in between them.
+
+23
+00:01:20.200 --> 00:01:21.890
+These are floats as well.
+
+24
+00:01:21.890 --> 00:01:25.850
+We can continue the process zooming in for
+different numbers.
+
+25
+00:01:25.850 --> 00:01:29.710
+Of course there is a limit but
+it is quite small.
+
+26
+00:01:29.710 --> 00:01:35.160
+You can change the type of the expression
+in Python, this is called typecasting.
+
+27
+00:01:35.160 --> 00:01:37.980
+You can convert an int to a float.
+
+28
+00:01:37.980 --> 00:01:42.760
+For example, you can convert or
+cast the integer 2 to a float 2.0.
+
+29
+00:01:42.760 --> 00:01:48.830
+Nothing really changes, if you cast a
+float to an integer, you must be careful.
+
+30
+00:01:48.830 --> 00:01:54.990
+For example, if you cast the float 1.1
+to 1, you will lose some information.
+
+31
+00:01:54.990 --> 00:01:59.930
+If a string contains an integer value,
+you can convert it to int.
+
+32
+00:01:59.930 --> 00:02:04.860
+If we convert a string that contains
+a non-integer value, we get an error.
+
+33
+00:02:04.860 --> 00:02:07.360
+Check out more examples in the lab.
+
+34
+00:02:07.360 --> 00:02:11.790
+You can convert an int to a string or
+a float to a string.
+
+35
+00:02:11.790 --> 00:02:14.890
+Boolean is another
+important type in Python.
+
+36
+00:02:14.890 --> 00:02:17.560
+A Boolean can take on two values.
+
+37
+00:02:17.560 --> 00:02:22.490
+The first value is True,
+just remember we use an uppercase T.
+
+38
+00:02:22.490 --> 00:02:26.810
+Boolean values can also be
+False with an uppercase F.
+
+39
+00:02:26.810 --> 00:02:31.900
+Using the type command on a Boolean value,
+we obtain the term bool.
+
+40
+00:02:31.900 --> 00:02:36.260
+This is short for Boolean,
+if we cast a Boolean True to an integer or
+
+41
+00:02:36.260 --> 00:02:38.430
+float, we will get a 1.
+
+42
+00:02:38.430 --> 00:02:43.090
+If we cast a Boolean False to
+an integer or float, we get a 0.
+
+43
+00:02:43.090 --> 00:02:46.740
+If you cast a 1 to a Boolean,
+you get a True.
+
+44
+00:02:46.740 --> 00:02:51.260
+Similarly, if you cast a 0 to a Boolean,
+you get a False.
+
+45
+00:02:51.260 --> 00:02:53.340
+Check the labs for more examples or
+
+46
+00:02:53.340 --> 00:02:57.250
+check Python.org for
+other kinds of types in Python.
+
+47
+00:02:57.250 --> 00:03:02.000
+(Music)

@@ -1,0 +1,237 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.560
+In this video, we will cover expressions and variables.
+
+2
+00:00:04.560 --> 00:00:09.140
+Expressions describe a type of operation the computers perform.
+
+3
+00:00:09.140 --> 00:00:13.480
+Expressions are operations the python performs. For example,
+
+4
+00:00:13.480 --> 00:00:17.490
+basic arithmetic operations like adding multiple numbers.
+
+5
+00:00:17.490 --> 00:00:20.520
+The result in this case is 160.
+
+6
+00:00:20.520 --> 00:00:25.110
+We call the numbers operands, and the math symbols in this case,
+
+7
+00:00:25.110 --> 00:00:27.710
+addition, are called operators.
+
+8
+00:00:27.710 --> 00:00:32.250
+We can perform operations such as subtraction using the subtraction sign.
+
+9
+00:00:32.250 --> 00:00:34.860
+In this case, the result is a negative number.
+
+10
+00:00:34.860 --> 00:00:40.480
+We can perform multiplication operations using the asterisk. The result is 25.
+
+11
+00:00:40.480 --> 00:00:45.920
+In this case, the operators are given by negative and asterisk.
+
+12
+00:00:45.920 --> 00:00:48.780
+We can also perform division with the forward slash (/)
+
+13
+00:00:48.780 --> 00:00:51.210
+25 / 5 is 5.0;
+
+14
+00:00:51.210 --> 00:00:57.250
+25 / 6 is approximately 4.167.
+
+15
+00:00:57.250 --> 00:01:03.900
+In Python 3, the version we will be using in this course, both will result in a float.
+
+16
+00:01:03.900 --> 00:01:08.880
+We can use the double slash for integer division, where the result is rounded.
+
+17
+00:01:08.880 --> 00:01:14.020
+Be aware, in some cases the results are not the same as regular division.
+
+18
+00:01:14.020 --> 00:01:18.840
+Python follows mathematical conventions when performing mathematical expressions.
+
+19
+00:01:18.840 --> 00:01:21.830
+The following operations are in a different order.
+
+20
+00:01:21.830 --> 00:01:25.290
+In both cases, Python performs multiplication,
+
+21
+00:01:25.290 --> 00:01:28.350
+then addition, to obtain the final result.
+
+22
+00:01:28.350 --> 00:01:32.500
+There are a lot more operations you can do with Python, check the labs for
+
+23
+00:01:32.500 --> 00:01:34.200
+more examples.
+
+24
+00:01:34.200 --> 00:01:38.460
+We will also be covering more complex operations throughout he course.
+
+25
+00:01:38.460 --> 00:01:41.910
+The expressions in the parentheses are performed first.
+
+26
+00:01:41.910 --> 00:01:43.690
+We then multiply the result by 60.
+
+27
+00:01:43.690 --> 00:01:46.480
+The result is 1,920.
+
+28
+00:01:46.480 --> 00:01:49.450
+Now, let's look at variables.
+
+29
+00:01:49.450 --> 00:01:54.230
+We can use variables to store values. In this case, we assign a value of 1 to
+
+30
+00:01:54.230 --> 00:02:01.120
+the variable my_variable using the assignment operator, i.e, the equal sign.
+
+31
+00:02:01.120 --> 00:02:03.700
+We can then use the value somewhere else in the code
+
+32
+00:02:03.700 --> 00:02:06.330
+by typing the exact name of the variable.
+
+33
+00:02:06.330 --> 00:02:10.100
+We will use a colon to denote the value of the variable.
+
+34
+00:02:10.100 --> 00:02:15.250
+We can assign a new value to my_variable using the assignment operator.
+
+35
+00:02:15.250 --> 00:02:19.530
+We assign a value of 10. The variable now has a value of 10.
+
+36
+00:02:19.530 --> 00:02:23.740
+The old value of the variable is not important.
+
+37
+00:02:23.740 --> 00:02:28.300
+We can store the results of expressions. For example, we add several values and
+
+38
+00:02:28.300 --> 00:02:32.610
+assign the result to x. X now stores the result.
+
+39
+00:02:32.610 --> 00:02:38.450
+We can also perform operations on x and save the result to a new variable-y.
+
+40
+00:02:38.450 --> 00:02:41.110
+Y now has a value of 2.666.
+
+41
+00:02:41.110 --> 00:02:47.320
+We can also perform operations on x and assign the value x.
+
+42
+00:02:47.320 --> 00:02:50.870
+The variable x now has a value: 2.666.
+
+43
+00:02:50.870 --> 00:02:55.930
+As before, the old value of x is not important.
+
+44
+00:02:55.930 --> 00:02:59.200
+We can use the type command in variables as well.
+
+45
+00:02:59.200 --> 00:03:02.500
+It's good practice to use meaningful variable names; so,
+
+46
+00:03:02.500 --> 00:03:05.490
+you don't have to keep track of what the variable is doing.
+
+47
+00:03:05.490 --> 00:03:08.200
+Let say, we would like to convert the number of minutes
+
+48
+00:03:08.200 --> 00:03:12.860
+in the highlighted examples to number of hours in the following music data-set.
+
+49
+00:03:12.860 --> 00:03:16.420
+We call the variable, that contains the total number of minutes, total_min.
+
+50
+00:03:16.420 --> 00:03:21.230
+It's common to use the underscore to represent the start of a new word.
+
+51
+00:03:21.230 --> 00:03:24.480
+You could also use a capital letter.
+
+52
+00:03:24.480 --> 00:03:29.680
+We call the variable that contains the total number of hours, total_hour.
+
+53
+00:03:29.680 --> 00:03:33.800
+We can obtain the total number of hours by dividing total_min by 60.
+
+54
+00:03:33.800 --> 00:03:39.370
+The result is approximately 2.367 hours.
+
+55
+00:03:39.370 --> 00:03:42.100
+If we modify the value of the first variable,
+
+56
+00:03:42.100 --> 00:03:44.370
+the value of the variable will change.
+
+57
+00:03:44.370 --> 00:03:47.430
+The final result values change accordingly, but
+
+58
+00:03:47.430 --> 00:03:49.820
+we do not have to modify the rest of the code.
+
+59
+00:03:49.820 --> 00:03:55.000
+(Music)

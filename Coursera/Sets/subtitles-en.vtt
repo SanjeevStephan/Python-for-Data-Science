@@ -1,0 +1,385 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.400
+Let's cover sets.
+
+2
+00:00:02.400 --> 00:00:05.530
+They are also a type of collection.
+
+3
+00:00:05.530 --> 00:00:08.250
+Sets are a type of collection.
+
+4
+00:00:08.250 --> 00:00:10.820
+This means that like lists and tuples,
+
+5
+00:00:10.820 --> 00:00:13.550
+you can input different Python types.
+
+6
+00:00:13.550 --> 00:00:17.190
+Unlike lists and tuples, they are unordered.
+
+7
+00:00:17.190 --> 00:00:20.460
+This means sets do not record element position.
+
+8
+00:00:20.460 --> 00:00:23.380
+Sets only have unique elements.
+
+9
+00:00:23.380 --> 00:00:27.400
+This means there is only one of a particular element in a set.
+
+10
+00:00:27.400 --> 00:00:30.790
+To define a set, you use curly brackets.
+
+11
+00:00:30.790 --> 00:00:34.220
+You place the elements of a set within the curly brackets.
+
+12
+00:00:34.220 --> 00:00:36.980
+You notice there are duplicate items.
+
+13
+00:00:36.980 --> 00:00:39.110
+When the actual set is created,
+
+14
+00:00:39.110 --> 00:00:41.870
+duplicate items will not be present.
+
+15
+00:00:41.870 --> 00:00:46.090
+You can convert a list to a set by using the function set,
+
+16
+00:00:46.090 --> 00:00:48.340
+this is called type casting.
+
+17
+00:00:48.340 --> 00:00:52.050
+You simply use the list as the input to the function set.
+
+18
+00:00:52.050 --> 00:00:55.130
+The result will be a list converted to a set.
+
+19
+00:00:55.130 --> 00:00:57.600
+Let's go over an example.
+
+20
+00:00:57.600 --> 00:00:59.790
+We start off with a list.
+
+21
+00:00:59.790 --> 00:01:02.570
+We input the list to the function set.
+
+22
+00:01:02.570 --> 00:01:05.190
+The function set returns a set.
+
+23
+00:01:05.190 --> 00:01:08.640
+Notice how there are no duplicate elements.
+
+24
+00:01:08.640 --> 00:01:11.710
+Let's go over set operations.
+
+25
+00:01:11.710 --> 00:01:14.090
+These could be used to change the set.
+
+26
+00:01:14.090 --> 00:01:16.170
+Consider the set A.
+
+27
+00:01:16.170 --> 00:01:18.840
+Let's represent this set with a circle.
+
+28
+00:01:18.840 --> 00:01:20.820
+If you are familiar with sets,
+
+29
+00:01:20.820 --> 00:01:23.200
+this could be part of a venn diagram.
+
+30
+00:01:23.200 --> 00:01:28.460
+A venn diagram is a tool that uses shapes usually to represent sets.
+
+31
+00:01:28.460 --> 00:01:32.280
+We can add an item to a set using the add-method.
+
+32
+00:01:32.280 --> 00:01:35.310
+We just put the set name followed by a dot,
+
+33
+00:01:35.310 --> 00:01:37.270
+then the add-method.
+
+34
+00:01:37.270 --> 00:01:41.210
+The argument is the new element of the set we would like to add,
+
+35
+00:01:41.210 --> 00:01:43.610
+in this case, NSYNC.
+
+36
+00:01:43.610 --> 00:01:47.710
+The set A now has in NSYNC as an item.
+
+37
+00:01:47.710 --> 00:01:50.260
+If we add the same item twice,
+
+38
+00:01:50.260 --> 00:01:53.410
+nothing will happen as there can be no duplicates in a set.
+
+39
+00:01:53.410 --> 00:01:57.610
+Let's say we would like to remove NSYNC from set A.
+
+40
+00:01:57.610 --> 00:02:02.060
+We can also remove an item from a set using the remove-method.
+
+41
+00:02:02.060 --> 00:02:05.000
+We just put the set name followed by a dot,
+
+42
+00:02:05.000 --> 00:02:06.740
+then the remove-method.
+
+43
+00:02:06.740 --> 00:02:10.110
+The argument is the element of the set we would like to remove,
+
+44
+00:02:10.110 --> 00:02:12.430
+in this case, NSYNC.
+
+45
+00:02:12.430 --> 00:02:15.260
+After the remove-method is applied to the set,
+
+46
+00:02:15.260 --> 00:02:18.550
+set A does not contain the item NSYNC.
+
+47
+00:02:18.550 --> 00:02:21.870
+You can use this method for any item in the set.
+
+48
+00:02:21.870 --> 00:02:27.270
+We can verify if an element is in the set using the in command as follows.
+
+49
+00:02:27.270 --> 00:02:29.040
+The command checks that the item,
+
+50
+00:02:29.040 --> 00:02:32.050
+in this case AC/DC, is in the set.
+
+51
+00:02:32.050 --> 00:02:35.880
+If the item is in the set, it returns true.
+
+52
+00:02:35.880 --> 00:02:39.320
+If we look for an item that is not in the set,
+
+53
+00:02:39.320 --> 00:02:41.630
+in this case for the item Who,
+
+54
+00:02:41.630 --> 00:02:43.620
+adds the item is not in the set,
+
+55
+00:02:43.620 --> 00:02:45.170
+we will get a false.
+
+56
+00:02:45.170 --> 00:02:48.390
+These are types of mathematical set operations.
+
+57
+00:02:48.390 --> 00:02:51.100
+There are other operations we can do.
+
+58
+00:02:51.100 --> 00:02:55.830
+There are lots of useful mathematical operations we can do between sets.
+
+59
+00:02:55.830 --> 00:02:58.880
+Let's define the set album set one.
+
+60
+00:02:58.880 --> 00:03:03.160
+We can represent it using a red circle or venn diagram.
+
+61
+00:03:03.160 --> 00:03:06.910
+Similarly, we can define the set album set two.
+
+62
+00:03:06.910 --> 00:03:11.090
+We can also represent it using a blue circle or venn diagram.
+
+63
+00:03:11.090 --> 00:03:13.500
+The intersection of two sets is
+
+64
+00:03:13.500 --> 00:03:16.890
+a new set containing elements which are in both of those sets.
+
+65
+00:03:16.890 --> 00:03:19.260
+It's helpful to use venn diagrams.
+
+66
+00:03:19.260 --> 00:03:22.120
+The two circles that represent the sets combine,
+
+67
+00:03:22.120 --> 00:03:24.790
+the overlap, represents the new set.
+
+68
+00:03:24.790 --> 00:03:28.750
+As the overlap is comprised with the red circle and blue circle,
+
+69
+00:03:28.750 --> 00:03:32.090
+we define the intersection in terms of and.
+
+70
+00:03:32.090 --> 00:03:37.820
+In Python, we use an ampersand to find the intersection of the two sets.
+
+71
+00:03:37.820 --> 00:03:40.910
+If we overlay the values of the set over
+
+72
+00:03:40.910 --> 00:03:44.430
+the circle placing the common elements in the overlapping area,
+
+73
+00:03:44.430 --> 00:03:46.470
+we see the correspondence.
+
+74
+00:03:46.470 --> 00:03:49.340
+After applying the intersection operation,
+
+75
+00:03:49.340 --> 00:03:52.860
+all the items that are not in both sets disappear.
+
+76
+00:03:52.860 --> 00:03:57.760
+In Python, we simply just place the ampersand between the two sets.
+
+77
+00:03:57.760 --> 00:04:02.660
+We see that both AC/DC and Back in Black are in both sets.
+
+78
+00:04:02.660 --> 00:04:05.700
+The result is a new set album: set three
+
+79
+00:04:05.700 --> 00:04:11.000
+containing all the elements in both albums set one and album set two.
+
+80
+00:04:11.000 --> 00:04:13.740
+The union of two sets is the new set of
+
+81
+00:04:13.740 --> 00:04:16.810
+elements which contain all the items in both sets.
+
+82
+00:04:16.810 --> 00:04:23.170
+We can find the union of the sets album set one and album set two as follows.
+
+83
+00:04:23.170 --> 00:04:29.300
+The result is a new set that has all the elements of album set one and album set two.
+
+84
+00:04:29.300 --> 00:04:32.430
+This new set is represented in green.
+
+85
+00:04:32.430 --> 00:04:36.630
+Consider the new album set-album set three.
+
+86
+00:04:36.630 --> 00:04:40.820
+The set contains the elements AC/DC and Back in Black.
+
+87
+00:04:40.820 --> 00:04:43.740
+We can represent this with a Venn diagram,
+
+88
+00:04:43.740 --> 00:04:47.910
+as all the elements and album set three are in album set one.
+
+89
+00:04:47.910 --> 00:04:50.490
+The circle representing album set one
+
+90
+00:04:50.490 --> 00:04:54.430
+encapsulates the circle representing album set three.
+
+91
+00:04:54.430 --> 00:04:59.910
+We can check if a set is a subset using the issubset method.
+
+92
+00:04:59.910 --> 00:05:04.140
+As album set three is a subset of the album set one,
+
+93
+00:05:04.140 --> 00:05:06.050
+the result is true.
+
+94
+00:05:06.050 --> 00:05:08.820
+There is a lot more you can do with sets.
+
+95
+00:05:08.820 --> 00:05:12.000
+Check out the lab for more examples.
+
+96
+00:05:12.000 --> 00:05:17.000
+(Music)
